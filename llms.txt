@@ -1,0 +1,18 @@
+# Muhammad Khan
+
+> Engineering lead and full-stack developer based in Lahore, Pakistan. Builds software end to end: databases, APIs, web front ends, and mobile apps with React Native and Expo.
+
+## About
+
+- Currently leading engineering at TechHive, across EdTech, HealthTech and ERP projects.
+- Previously Senior Full Stack Developer and team lead for Floor Insights at WiMetrix, carrying real-time IoT data from devices to web and Android apps.
+- Works mainly with TypeScript/JavaScript, React, React Native, Expo, Node.js, Ruby on Rails and Python.
+- BS in Software Engineering, Virtual University of Pakistan.
+
+## Links
+
+- [Website](https://muhammadkhan.dev/)
+- [Resume (PDF)](https://muhammadkhan.dev/resume.pdf)
+- [GitHub](https://github.com/muhammadk1607)
+- [LinkedIn](https://www.linkedin.com/in/muhammadk1607/)
+- [Email](mailto:me@muhammadkhan.dev)
