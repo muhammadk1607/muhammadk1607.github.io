@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tethered | Privacy Policy</title>
+		<meta
+			name="description"
+			content="Privacy policy for Tethered, a physics puzzle-platformer for Android. The game collects no data."
+		/>
+		<link
+			rel="canonical"
+			href="https://muhammadkhan.dev/tethered/privacy/"
+		/>
+		<meta
+			name="theme-color"
+			content="#fffbeb"
+			media="(prefers-color-scheme: light)"
+		/>
+		<meta
+			name="theme-color"
+			content="#282a36"
+			media="(prefers-color-scheme: dark)"
+		/>
+		<link
+			rel="icon"
+			href="/favicon.ico"
+			sizes="32x32"
+		/>
+		<link
+			rel="icon"
+			href="/favicon.svg"
+			type="image/svg+xml"
+		/>
+		<link
+			rel="preload"
+			href="/fonts/bitter.woff2"
+			as="font"
+			type="font/woff2"
+			crossorigin
+		/>
+		<script>
+			try {
+				const saved = localStorage.getItem("theme");
+				if (saved === "light" || saved === "dark") {
+					document.documentElement.dataset.theme = saved;
+				}
+			} catch {}
+		</script>
+		<style>
+			@font-face {
+				font-family: "Bitter";
+				src: url("/fonts/bitter.woff2") format("woff2");
+				font-weight: 100 900;
+				font-style: normal;
+				font-display: swap;
+			}
+
+			/* Alucard (Dracula's light theme) */
+			:root {
+				--bg: #fffbeb;
+				--surface: #f5efd9;
+				--border: #e4dcc0;
+				--fg: #1f1f1f;
+				--muted: #6c664b;
+				--purple: #644ac9;
+				--selection: #cfcfde;
+
+				color-scheme: light;
+			}
+
+			/* Dracula */
+			@media (prefers-color-scheme: dark) {
+				:root:not([data-theme="light"]) {
+					--bg: #282a36;
+					--surface: #2f3241;
+					--border: #44475a;
+					--fg: #f8f8f2;
+					--muted: #8b95c4;
+					--purple: #bd93f9;
+					--selection: #44475a;
+
+					color-scheme: dark;
+				}
+			}
+
+			:root[data-theme="dark"] {
+				--bg: #282a36;
+				--surface: #2f3241;
+				--border: #44475a;
+				--fg: #f8f8f2;
+				--muted: #8b95c4;
+				--purple: #bd93f9;
+				--selection: #44475a;
+
+				color-scheme: dark;
+			}
+
+			:root {
+				font-family: Bitter, Rockwell, "Rockwell Nova", "Roboto Slab",
+					"DejaVu Serif", serif;
+				font-size: 112.5%;
+				line-height: 1.65;
+				font-synthesis: none;
+				text-rendering: optimizeLegibility;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+
+			*,
+			*::before,
+			*::after {
+				box-sizing: border-box;
+			}
+
+			::selection {
+				background-color: var(--selection);
+			}
+
+			body {
+				margin: 0;
+				background-color: var(--bg);
+				color: var(--fg);
+			}
+
+			main {
+				width: 100%;
+				max-width: 38rem;
+				margin: 0 auto;
+				padding: 4rem 1rem 5rem;
+			}
+
+			:focus-visible {
+				outline: 2px solid var(--purple);
+				outline-offset: 3px;
+			}
+
+			.back {
+				color: var(--muted);
+				font-size: 0.9rem;
+				text-decoration: none;
+			}
+
+			.back:hover {
+				color: var(--purple);
+			}
+
+			h1 {
+				margin: 1.5rem 0 0.25rem;
+				font-size: 2rem;
+				line-height: 1.2;
+			}
+
+			.updated {
+				margin: 0 0 2rem;
+				color: var(--muted);
+				font-size: 0.9rem;
+			}
+
+			h2 {
+				margin: 2.25rem 0 0.5rem;
+				font-size: 1.15rem;
+			}
+
+			p {
+				margin: 0 0 1rem;
+			}
+
+			a {
+				color: var(--purple);
+			}
+
+			.summary {
+				padding: 1rem 1.25rem;
+				border: 1px solid var(--border);
+				border-radius: 0.75rem;
+				background: var(--surface);
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<a
+				class="back"
+				href="/"
+				>← muhammadkhan.dev</a
+			>
+			<h1>Tethered: Privacy Policy</h1>
+			<p class="updated">Last updated: 24 November 2026</p>
+
+			<p class="summary">
+				Tethered is a single-player puzzle game for Android. The short
+				version: it collects nothing.
+			</p>
+
+			<h2>Information we collect</h2>
+			<p>
+				None. Tethered does not ask for, collect, transmit or sell any
+				personal or device information. It has no accounts, analytics,
+				advertising, crash reporting or other third-party SDKs, and it
+				does not use the internet.
+			</p>
+
+			<h2>Information stored on your device</h2>
+			<p>
+				The game saves your progress (which levels you've unlocked) and
+				your settings (volumes, vibration, control layout) in the app's
+				private storage on your device. It also keeps a cache of the
+				sounds and music it generates so later launches are faster. None
+				of this ever leaves your device. Uninstalling the game or clearing
+				its data deletes it.
+			</p>
+
+			<h2>Permissions</h2>
+			<p>
+				The game asks for one permission: <strong>vibration</strong>, used
+				for haptic feedback during play. You can turn it off in Settings.
+			</p>
+
+			<h2>Children</h2>
+			<p>
+				Tethered collects no information from anyone, including children
+				under 13.
+			</p>
+
+			<h2>Changes</h2>
+			<p>
+				If a future version adds features that handle data (for example
+				cloud saves, purchases or crash reporting), this policy will be
+				updated before that version is released, and the date above will
+				change.
+			</p>
+
+			<h2>Contact</h2>
+			<p>
+				Questions about this policy:
+				<a href="mailto:tethered@muhammadkhan.dev">tethered@muhammadkhan.dev</a>
+			</p>
+		</main>
+	</body>
+</html>
